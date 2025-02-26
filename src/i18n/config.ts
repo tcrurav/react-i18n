@@ -13,6 +13,7 @@ import { initReactI18next } from "react-i18next";
 export const supportedLngs = {
   en: "English",
   ar: "Arabic (العربية)",
+  es: "Spanish (Español)",
 };
 
 i18n
@@ -52,25 +53,6 @@ i18n
     interpolation: {
       escapeValue: false,
     },
-
-    // // Translation messages. Add any languages
-    // // you want here.
-    // resources: {
-    //   // English
-    //   en: {
-    //     // `translation` is the default namespace.
-    //     // More details about namespaces shortly.
-    //     translation: {
-    //       hello_world: "Hello, World!",
-    //     },
-    //   },
-    //   // Arabic
-    //   ar: {
-    //     translation: {
-    //       hello_world: "مرحباً بالعالم!",
-    //     },
-    //   },
-    // },
   });
 
 export default i18n;

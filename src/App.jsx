@@ -1,12 +1,13 @@
 import { useTranslation } from "react-i18next";
 import LocaleSwitcher from "./i18n/LocaleSwitcher";
+import "./App.css"
 
 function App() {
 
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="app-center-all">
       {/* We pass the key we provided under
           `resources.translation` in 
           src/i18n/config.ts */}
@@ -17,6 +18,3 @@ function App() {
 }
 
 export default App
-
-
-// https://phrase.com/blog/posts/localizing-react-apps-with-i18next/
